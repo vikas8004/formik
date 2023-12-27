@@ -1,0 +1,36 @@
+div{
+    padding: .3rem 0;
+}
+label{
+    display: block;
+    text-align: left;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+input,textarea,select{
+    border: none;
+    outline: none;
+    background-color: rgb(53, 48, 48);
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 17px;
+    width: 120%;
+    resize: none;
+}
+button{
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 5px;
+    border-color: cyan;
+    padding: 4px;
+    cursor: pointer;
+    
+}
+.error{
+    color: red;
+}
+.radioLabel,radioInput{
+    display: inline;
+}
